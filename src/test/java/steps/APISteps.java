@@ -16,9 +16,11 @@ public class APISteps {
 
     @Given("^user sends \"([^\"]*)\" request to URL \"([^\"]*)\"$")
     public void SendRequestToUrl(String request, String url) {
-        var = String.valueOf(given()
-                .get(url)
-                .getStatusCode());
+        if (request.equals("GET")) {
+            var = String.valueOf(given()
+                    .get(url)
+                    .getStatusCode());
+        }
     }
 
     @Then("check status code is \"([^\"]*)\"$")
