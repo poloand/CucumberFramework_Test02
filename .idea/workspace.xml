@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eb8c07b-247c-4785-848d-f0c40e7c7e04" name="Changes" comment="Initial 2 cases to test the registration form for following site: https://demo.guru99.com/">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/APISteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/RequestsTests.feature" afterDir="false" />
+    <list default="true" id="7eb8c07b-247c-4785-848d-f0c40e7c7e04" name="Changes" comment="added GET request">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RegisterFormTests.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +25,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a836d94f-0389-4678-b5a3-9649ffeb2eaf" />
+        <option name="url" value="https://github.com/poloand/CucumberFramework_Test02.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -155,11 +165,27 @@
       <option name="project" value="LOCAL" />
       <updated>1678653753627</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added 2 API cases">
+      <created>1678961324966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678961324967</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added GET request">
+      <created>1678962907425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678962907425</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial 2 cases to test the registration form for following site: https://demo.guru99.com/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial 2 cases to test the registration form for following site: https://demo.guru99.com/" />
+    <MESSAGE value="added 2 API cases" />
+    <MESSAGE value="added GET request" />
+    <option name="LAST_COMMIT_MESSAGE" value="added GET request" />
   </component>
 </project>
